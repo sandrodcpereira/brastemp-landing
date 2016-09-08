@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:800, 400' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<title>LANDING BRASTEMP - ÁGUA</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+	<div class="header-container">
+		<div class="header">
+			<img src="img/logo.png" alt="">
+			<h1>Do you know where your drinking water comes from?</h1>
+		</div>
+	</div>
+
+	<div class="top-container">
+		<div class="top-content">
+			<div class="top-header">
+				<!--p>THERE WAS TEXT HERE. IT'S GONE NOW.</p-->
+			</div>
+
+			<div class="row">
+				<div id="a1">
+					<div class="previous_disabled">&nbsp;</div>
+					<img id="represa" src="img/BRASTEMP_1-REPRESA.png" alt="Dam">
+					<div class="next next_a1">&nbsp;</div>
+				</div>
+
+				<div id="a2">
+					<div class="previous previous_a2">&nbsp;</div>
+					<img id="rio" src="img/BRASTEMP_2-RIO.png" alt="River">
+					<div class="next next_a2">&nbsp;</div>
+				</div>
+
+				<div id="a3">
+					<div class="previous previous_a3">&nbsp;</div>
+					<img id="lago" src="img/BRASTEMP_3-LAGO.png" alt="Lake">
+					<div class="next_disabled">&nbsp;</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<img src="img/BRASTEMP_4-TRATAMENTO.png" alt="Chemical water treatment">
+			</div>
+
+			<div class="row">
+
+				<div class="empty">&nbsp;</div>
+				<div id="b1">
+					<div class="previous_disabled">&nbsp;</div>
+					<img id="encanamento" src="img/BRASTEMP_5-ENCANAMENTO.png" alt="Rusty plumbing">
+					<div class="next next_b1">&nbsp;</div>
+				</div>
+
+				<div id="b2">
+					<div class="previous previous_b2">&nbsp;</div>
+					<img id="caixa" src="img/BRASTEMP_6-CAIXA.png" alt="Unhygienic water box">
+					<div class="next_disabled">&nbsp;</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="bottom-container">
+
+		<div id="tap-water" class="bottom-content">
+			<div class="water">
+				<div style="background-image: url(img/BRASTEMP_16-WATER-D.gif); background-position: center center; background-repeat: no-repeat; background-size: contain;" id="fountain">
+					<img src="img/BRASTEMP-26.png" alt="Filtered water">
+				</div>
+			</div>
+			<div class="cta-container">
+				<div class="cta" id="cta1" href="#">I WANT CLEAN WATER</div>
+			</div>
+		</div>
+
+		<div id="pure-water" class="bottom-content" style="display: none">
+			<div class="water">
+
+				<div style="background-image: url(img/BRASTEMP_16-WATER.gif); background-position: center center; background-repeat: no-repeat; background-size: contain;" id="tap">
+					<img src="img/BRASTEMP-25.png" alt="Tap water">
+				</div>
+
+			</div>
+			
+			<div class="cta-container">
+				<div class="cta" id="cta2" href="#">TRY IT FREE</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="detail-container">
+		<div class="detail-content">
+
+			<div class="detail1">
+				<div class="icon" style="background-color: #d47f49">
+					<img src="img/BRASTEMP-27.png" alt="">
+				</div>
+				<p>Heavy metals<sup></sup><br><span>Due to environmental pollution and badly maintained plumbing, tap cater can contain mercury, lead, and cadmium.</span></p>
+			</div>
+
+			<div class="detail2">
+				<div class="icon" style="background-image: url(img/BG-ICON.jpg)">
+					<img src="img/BRASTEMP-28.png" alt="">
+				</div>
+				<p>Health problems<br><span>Some health problems - like liver and kidney problems, abdominal pain, and more - can be traced back to those metals. (<a href="http://noticias.uol.com.br/cotidiano/ultimas-noticias/2014/04/25/tratamento-inadequado-do-volume-morto-traz-riscos-entenda.htm">Source</a>)</span></p>
+			</div>
+			
+			<div class="detail3">
+				<div class="icon" style="background-color: #27aae2">
+					<img src="img/BRASTEMP-29.png" alt="">
+				</div>
+				<p>Purified water<br><span>Brastemp water purifier remove tap water inpurities, getting rid of chlorine and bacteria but keeping fluorine and beneficial minerals.</span></p>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="footer-container">
+		<div class="footer">
+			<img src="img/logo.png" alt="">
+		</div>
+	</div>
+
+	<div class="modal-bg" style="display: none">
+
+
+		<div class="modal modal1" >
+			<div class="close-btn-modal">&nbsp;</div>
+			<p id="modal-title-desktop">You have for options to get purified water at home</p>
+			<p id="modal-title-mobile" style="display: none">The best option to get purified water at home</p>
+
+			<table class="table-compare">
+				<tr>
+					<td width="100"></td>
+					<td width="100">Buy<br>water</td>
+					<td width="100">Buy<br>filter</td>
+					<td width="100">Buy<br>purifier</td>
+					<td width="100" class="best-choice">Rent<br>purifier</td>
+				</tr>
+				<tr>
+					<td>Buy without<br>leaving your house</td>
+					<td class="table-no"></td>
+					<td class="table-no"></td>
+					<td class="table-no"></td>
+					<td class="best-choice table-check"></td>
+				</tr>
+				<tr>
+					<td>Free<br>installation</td>
+					<td class="table-no"></td>
+					<td class="table-no"></td>
+					<td class="table-no"></td>
+					<td class="best-choice table-check"></td>
+				</tr>
+				<tr>
+					<td>Free lifetime warrantee</td>
+					<td class="table-no"></td>
+					<td class="table-no"></td>
+					<td class="table-no"></td>
+					<td class="best-choice table-check"></td>
+				</tr>
+				<tr>
+					<td>Free<br>repair</td>
+					<td class="table-no"></td>
+					<td class="table-no"></td>
+					<td class="table-no"></td>
+					<td class="best-choice table-check"></td>
+				</tr>
+				<tr>
+					<td>Free<br>Maintenance</td>
+					<td class="table-no"></td>
+					<td class="table-no"></td>
+					<td class="table-no"></td>
+					<td class="best-choice table-check"></td>
+				</tr>
+				<tr>
+					<td>100% pure<br>water</td>
+					<td class="table-check"></td>
+					<td class="table-no"></td>
+					<td class="table-check"></td>
+					<td class="best-choice table-check"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="best-choice"><span style="font-size: 11px; display: block; margin-bottom: -10px">More practical, cheaper, healthier, and environment friendly</span></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="best-choice">
+						<div class="cta-table"><a class="cta-try" href="#">Try for 30<br>days free</a></div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+
+		<div class="modal modal2" style="display: none">
+			<div class="close-btn-modal">&nbsp;</div>
+			<p style="padding: 20px 20px 20px 20px; font-size: 40px">Thanks!</p>
+
+			<a href="http://www.sandrodcpereira.com"><img src="img/sandro-logo.png"></a>
+
+			<p style="font-size: 18px; line-height: 24px; text-transform: none; text-shadow: none; font-weight: 500; padding: 0 0 20px 0"><br>This is a non-functioning demo by <a style="color: #ffffff; font-weight: 700" href="http://www.sandrodcpereira.com">Sandro Pereira</a>. Thanks for visiting.</p>
+		</div>
+
+	</div>
+	
+</body>
+
+
+<script>
+
+	$(window).resize(function(){
+		var current_width = $(window).width();
+		if(current_width > 820){
+		     $("#a1, #a2, #a3, #b1, #b2").css("display", "inline-block");
+			$("#modal-title-mobile").css("display", "none");
+			$("#modal-title-desktop").css("display", "inline-block");
+		}
+	});
+
+	$(window).resize(function(){
+		var current_width = $(window).width();
+		if(current_width < 820){
+			$("#a2, #a3, #b2").css("display", "none");
+			$("#a1, #b1").css("display", "inline-block");
+			$("#modal-title-mobile").css("display", "inline-block");
+			$("#modal-title-desktop").css("display", "none");
+		}
+	});
+
+	
+	$(document).ready(function (){
+		
+		$('.next_a1').click(function(){
+			$('#a1').fadeOut(200);
+			setTimeout(
+			  function() 
+			  {
+			    $('#a2').fadeIn(200);
+			  }, 300);
+		});
+
+		$('.previous_a2').click(function(){
+			$('#a2').fadeOut(200);
+			setTimeout(
+			  function() 
+			  {
+			    $('#a1').fadeIn(200);
+			  }, 300);
+		});
+
+		$('.next_a2').click(function(){
+			$('#a2').fadeOut(200);
+			setTimeout(
+			  function() 
+			  {
+			    $('#a3').fadeIn(200);
+			  }, 300);
+		});
+
+		$('.previous_a3').click(function(){
+			$('#a3').fadeOut(200);
+			setTimeout(
+			  function() 
+			  {
+			    $('#a2').fadeIn(200);
+			  }, 300);
+		});
+
+
+
+		$('.next_b1').click(function(){
+			$('#b1').fadeOut(200);
+			setTimeout(
+			  function() 
+			  {
+			    $('#b2').fadeIn(200);
+			  }, 300);
+		});
+
+		$('.previous_b2').click(function(){
+			$('#b2').fadeOut(200);
+			setTimeout(
+			  function() 
+			  {
+			    $('#b1').fadeIn(200);
+			  }, 300);
+		});
+
+		$('#cta1').click(function(){
+			$('#tap-water').css("display", "none");
+			$('#pure-water').css("display", "block");
+		});
+
+		$('#cta2').click(function (){
+				$('.modal-bg').css("display", "inline");
+		});
+
+		$('.close-btn-modal').click(function(){
+			$('.modal-bg').css("display", "none");
+		});
+
+		$('.cta-try').click(function(){
+			$('.modal1').css("display", "none");
+			$('.modal2').css("display", "block");
+		});
+
+
+	});
+
+	
+
+
+</script>
+
+</html>
