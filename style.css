@@ -272,7 +272,7 @@ body {zoom: 70% !important}
 .next_disabled {display: block; height: 140px; width: 50px; background-image: url(img/BRASTEMP_PREVIOUS_DIS.png); background-position: center center; background-repeat: no-repeat; float: right; }
 .previous_disabled {display: block; height: 140px; width: 50px; background-image: url(img/BRASTEMP_NEXT_DIS.png); background-position: center center; background-repeat: no-repeat; float: left; }
 .detail1, .detail2, .detail3 {margin: 0 auto 20px auto; display: block;}
-.modal {width: 80%; overflow: scroll;}
+.modal {width: 80%; /*overflow: scroll;*/}
 .modal table tr td:nth-child(2), .modal table tr td:nth-child(3), .modal table tr td:nth-child(4) {display: none;}
 
 }
