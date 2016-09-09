@@ -242,7 +242,7 @@ h1 {
 }
 
 @media screen and (max-width: 820px) {
-body {zoom: 70%}
+body {zoom: 70% !important}
 .top-container {background-image: url(img/BRASTEMP-20.png); background-color: #ffffff;}
 .bottom-container {height: auto;}
 .top-content {width: 100%;}
